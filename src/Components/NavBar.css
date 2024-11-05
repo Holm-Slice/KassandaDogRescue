@@ -1,0 +1,28 @@
+/* src/Components/NavBar.css */
+.navbar {
+  background-color: #ffca3a;
+  height: 5em;
+  font-family: "Custom1";
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #262626 !important;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+}
+
+.nav-link {
+  margin-right: 25px;
+  font-size: 5em;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
