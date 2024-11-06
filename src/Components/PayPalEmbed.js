@@ -4,7 +4,7 @@ import "./PayPalEmbed.css";
 
 const PayPalEmbed = () => (
   <div className="paypal-embed">
-    <h2>Support Us</h2>
+    <h2>Support The Mission:</h2>
     <div>
       <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input

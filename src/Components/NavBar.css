@@ -6,11 +6,18 @@
   display: flex;
   justify-content: flex-end; /* Align content to the right */
   align-items: center; /* Center items vertically */
+  font-size: 35px;
 }
 
 .navbar-brand,
 .nav-link {
   color: #262626 !important;
+  font-size: 95px;
+  padding-left: 25px;
+}
+
+.navbar-container {
+  font-size: 45px;
 }
 
 .navbar-collapse {
@@ -24,5 +31,9 @@
 }
 
 .nav-link:hover {
-  color: #ddd !important;
+  color: #d00000 !important;
+}
+
+.navbar-brand:hover {
+  color: #d00000 !important;
 }

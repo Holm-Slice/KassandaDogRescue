@@ -1,5 +1,6 @@
 // src/App.js
 import React from "react";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import NavBar from "./Components/NavBar";
 import ImageCarousel from "./Components/ImageCarousel";
 import PayPalEmbed from "./Components/PayPalEmbed";
@@ -40,6 +41,39 @@ const App = () => (
         </div>
         <div className="paypal-container">
           <PayPalEmbed />
+        </div>
+        <h2>Connect with us:</h2>
+        <div className="connect-container">
+          <a
+            href="https://www.instagram.com/kassanda_animal_shelter/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram
+              size={60}
+              style={{
+                color: "#d00000",
+                marginRight: "15px",
+                marginBottom: "25px",
+                paddingLeft: "15px",
+              }}
+            />
+          </a>
+          <a
+            href="https://wa.me/+256767020284"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp
+              size={60}
+              style={{
+                color: "#d00000",
+                marginRight: "15px",
+                marginBottom: "25px",
+                paddingLeft: "15px",
+              }}
+            />
+          </a>
         </div>
       </div>
     </div>
