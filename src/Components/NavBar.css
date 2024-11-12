@@ -37,3 +37,13 @@
 .navbar-brand:hover {
   color: #d00000 !important;
 }
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2em;
+  }
+
+  .connect-container a {
+    margin: 0 10px;
+  }
+}
