@@ -1,7 +1,6 @@
-// src/components/NavBar.js
-// src/Components/NavBar.js
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+// import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import "./NavBar.css";
 
 const NavBar = () => (
