@@ -1,35 +1,28 @@
-// src/components/PayPalEmbed.js
 import React from "react";
 import "./PayPalEmbed.css";
+// import paypalImage from "dog-rescue-site/src/images/paypalacct.png"; // Make sure to replace with the actual path to your image
 
-const PayPalEmbed = () => (
-  <div className="paypal-embed">
-    <h2>Support The Mission:</h2>
-    <div>
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input
-          type="hidden"
-          name="hosted_button_id"
-          value="YOUR_PAYPAL_BUTTON_ID"
-        />
-        <input
-          type="image"
-          src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-          border="0"
-          name="submit"
-          title="PayPal - The safer, easier way to pay online!"
-          alt="Donate with PayPal button"
-        />
+const PayPalEmbed = () => {
+  const handleDonateClick = () => {
+    window.open(
+      "https://paypal.me/animacar70?country.x=US&locale.x=en_US",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
+  return (
+    <div className="paypal-embed">
+      <h2>Support The Mission:</h2>
+      <div onClick={handleDonateClick} className="paypal-image-container">
         <img
-          alt=""
-          border="0"
-          src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-          width="1"
-          height="1"
+          src="/imgs/paypalImg.png"
+          alt="Donate with PayPal"
+          className="paypal-image"
         />
-      </form>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default PayPalEmbed;
