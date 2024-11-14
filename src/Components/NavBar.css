@@ -41,7 +41,7 @@
 
 @media (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.2em;
+    font-size: 24px; /* Adjust the font size for mobile */
   }
 
   .connect-container a {
