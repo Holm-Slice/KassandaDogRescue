@@ -9,7 +9,7 @@ const NavBar = () => (
       href="#home"
       style={{ fontSize: "45px", textAlign: "center", width: "100%" }}
     >
-      Kassanda Animal Rescue
+      Kassanda <br /> Animal Rescue
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
