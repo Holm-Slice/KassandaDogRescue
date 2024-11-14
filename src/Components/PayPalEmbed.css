@@ -1,23 +1,35 @@
-/* src/components/PayPalEmbed.css */
+/* src/Components/PayPalEmbed.css */
+
 .paypal-embed {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 0;
+  text-align: center;
+  padding: 20px;
 }
 
-.paypal-embed h2 {
-  margin-bottom: 20px;
+.paypal-image-container {
+  cursor: pointer;
+  display: inline-block;
 }
 
-.paypal-embed form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.paypal-embed input[type="image"] {
-  width: 200px; /* Adjust the width as needed */
+.paypal-image {
+  width: 200px; /* Adjust the size as needed */
   height: auto;
+  transition: transform 0.2s; /* Add a transition for hover effect */
+}
+
+.paypal-image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+@media (max-width: 768px) {
+  .paypal-embed {
+    padding: 10px;
+  }
+
+  .paypal-image {
+    width: 150px; /* Adjust the size for mobile */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Adjust the font size for mobile */
+  }
 }
