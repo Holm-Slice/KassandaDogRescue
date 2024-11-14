@@ -11,7 +11,7 @@
 }
 
 .paypal-image {
-  width: 500px; /* Adjust the size as needed */
+  width: 700px; /* Adjust the size as needed */
   height: auto;
   transition: transform 0.2s; /* Add a transition for hover effect */
 }
@@ -26,7 +26,7 @@
   }
 
   .paypal-image {
-    width: 250px; /* Adjust the size for mobile */
+    width: 350px; /* Adjust the size for mobile */
   }
 
   h2 {

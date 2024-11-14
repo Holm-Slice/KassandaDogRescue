@@ -13,7 +13,7 @@ const PayPalEmbed = () => {
 
   return (
     <div className="paypal-embed">
-      <h2>Support The Mission:</h2>
+      <h2>Support Through PayPal:</h2>
       <div onClick={handleDonateClick} className="paypal-image-container">
         <img
           src="/imgs/paypalImg.png"
